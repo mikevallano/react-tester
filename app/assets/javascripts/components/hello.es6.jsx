@@ -1,5 +1,5 @@
 class Hello extends React.Component {
   render () {
-    return <h2>Hola mundo</h2>;
+    return <h2>Da critter is: {this.props.critter.name}</h2>;
   }
 }
