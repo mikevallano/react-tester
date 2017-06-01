@@ -1,0 +1,5 @@
+<%= react_component("Critters", {critters: @critters.as_json(only: [:id, :name, :description])}) %>
+
+<br>
+
+<%= link_to 'New Critter', new_critter_path %>
